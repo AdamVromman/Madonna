@@ -1,12 +1,29 @@
 .tekst
 {
-    width: 50%;
+    width: 40%;
     margin-left: auto;
     margin-right: auto;
-    margin-top: 5rem;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    padding-top: 5rem;
+    text-align: center;
+    background-image: url("/assets/bg.png");
+    background-repeat: repeat-y;
+    background-size: 100%;
+    min-height: 100vh;
 }
 
 .break
 {
     margin-top: 2rem;
 }
+
+
+@media screen and (max-width: 768px)
+{
+    .tekst
+{
+    width: 70%;
+}
+}
+
