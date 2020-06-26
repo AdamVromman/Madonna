@@ -5,4 +5,13 @@
     background-image: url("/assets/restaurantGrootBg.jpg");
     background-repeat: no-repeat;
     background-size: cover;
+    background-position-y: 90%;
+}
+
+@media screen and (max-width: 768px)
+{
+    .wrapper
+    {
+        background-image: url("/assets/restaurantKleinBg.jpg");
+    }
 }
