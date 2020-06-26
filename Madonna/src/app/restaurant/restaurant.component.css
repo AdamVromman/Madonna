@@ -8,10 +8,14 @@
     background-position-y: 90%;
 }
 
+
+
 @media screen and (max-width: 768px)
 {
     .wrapper
     {
         background-image: url("/assets/restaurantKleinBg.jpg");
     }
+
+    
 }
