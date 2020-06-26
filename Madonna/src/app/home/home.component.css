@@ -2,9 +2,10 @@
 {
     display: flex;
     min-height: 100vh;
-    background-image: url("/assets/homeGrootBg.jpg");
+    background-image: url("/assets/homeGrootBg1.jpg");
     background-repeat: no-repeat;
     background-size: cover;
+    background-position-y: 70%;
 }
 
 @media screen and (max-width: 768px)
