@@ -8,12 +8,16 @@
     background-position-y: 70%;
 }
 
+
 @media screen and (max-width: 768px)
 {
     .wrapper
     {
         background-image: url("/assets/homeKleinBg.jpg");
     }
+
+    
+    
 
     
 }
