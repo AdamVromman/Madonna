@@ -36,10 +36,10 @@ $Madonna-theme: mat-light-theme($Madonna-primary, $Madonna-accent, $Madonna-warn
     margin-right: auto;
     padding-left: 3%;
     padding-right: 3%;
-    padding-top: 5rem;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
     text-align: center;
     color: #ffffff;
-    min-height: 100vh;
     z-index: 4;
 
 }
@@ -59,6 +59,68 @@ li
 
 ul{
     padding: 0;
+}
+
+p
+{
+    margin: 0;
+    color: #e08269;
+    text-shadow: 1px 1px #173945;
+
+}
+
+h1
+{
+    font-weight: 500;
+}
+
+.banner
+{
+    width: 100%;
+    height: 65vh;
+    overflow: hidden;
+    position: relative;
+
+}
+
+.bannerImg
+{
+    position: relative;
+    width: 100%;
+    top: -35%; 
+
+}
+
+
+.titleWrapper
+{
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.title
+{
+    font-size: 7vw;
+    top: 0;
+    left: 0;
+    margin: 0;
+    margin-left: auto;
+    margin-right: auto;
+    z-index: 5;
+    color: #e08269;
+    text-shadow: 2px 2px #1c4655;
+}
+
+.content
+{
+    background-color: #1c4655;
+    width: 100%;
 }
 
 
@@ -87,4 +149,4 @@ ul{
 
 
 html, body { height: 100%; }
-body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif; }
+body { margin: 0; font-family: Roboto, sans-serif; font-weight: 300; }

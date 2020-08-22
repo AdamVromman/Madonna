@@ -8,6 +8,18 @@
     background-position-y: 70%;
 }
 
+p
+{
+    color: #ee603c;
+}
+
+h1
+{
+    color: #ee603c;
+}
+
+
+
 
 @media screen and (max-width: 768px)
 {

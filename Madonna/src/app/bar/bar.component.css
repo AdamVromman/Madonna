@@ -6,6 +6,18 @@
     background-repeat: no-repeat;
     background-size: cover;
 }
+
+p
+{
+    color: #a0b991;
+}
+
+h1
+{
+    color: #a0b991;
+}
+
+
 @media screen and (max-width: 768px)
 {
     .wrapper

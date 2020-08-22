@@ -7,6 +7,18 @@
     background-size: cover;
 }
 
+p
+{
+    color: #e08269;
+}
+
+h1
+{
+    color: #e08269;
+}
+
+
+
 @media screen and (max-width: 768px)
 {
     .wrapper
