@@ -10,6 +10,8 @@ import { FormulesComponent } from './formules/formules.component';
 import { InfoComponent } from './info/info.component';
 import { RouterModule, Routes } from '@angular/router';
 import { HomeComponent } from './home/home.component';
+import { NoopAnimationsModule } from '@angular/platform-browser/animations';
+import { MaterialModule } from './material/material.module';
 
 let ROUTES: Routes = [
   {component: HomeComponent, path: 'home'},
@@ -36,7 +38,9 @@ let ROUTES: Routes = [
   imports: [
     BrowserModule,
     NgbModule,
-    RouterModule.forRoot(ROUTES)
+    RouterModule.forRoot(ROUTES),
+    NoopAnimationsModule,
+    MaterialModule
 
   ],
   providers: [],
