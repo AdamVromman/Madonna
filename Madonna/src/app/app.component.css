@@ -10,8 +10,15 @@ footer
         justify-content: space-evenly;
         margin-top: auto;
         width: 100%;
+        z-index: 1000;
        
 }
+
+.knop
+{
+    border-radius: 0;
+}
+
 
 span
 {
@@ -30,7 +37,33 @@ span
 
 img
 {
-    width:200px;
+    width:170px;
+    z-index: 100;
+    margin: 1%;
+}
+
+
+.nav
+{
+    margin-top: 1%;
+    height: 5vh;
+    width: 100%;
+    position: absolute;
+    z-index: 100;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+
+.bigNav
+{
+    width: 25%;
+}
+
+.smallNav
+{
+    width: 15%;
 }
 
 

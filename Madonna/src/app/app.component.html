@@ -1,5 +1,5 @@
 <div class="container">
-<nav class="navbar navbar-expand-lg navbar-dark bg-balk fixed-top">
+<nav class="navbar navbar-expand-lg navbar-light bg-test fixed-top">
   <a class="navbar-brand" [routerLink]="['home']">
     <img src="assets/madonnaLogoPNGsmall.png">
   </a>
@@ -8,33 +8,33 @@
   </button>
 
   <div [ngbCollapse]="isMenuCollapsed" class="collapse navbar-collapse" id="navbarSupportedContent">
-    <ul class="navbar-nav mr-auto">
+    <ul class="navbar-nav mr-auto d-flex justify-content-between bigNav">
       <li class="nav-item">
-        <a class="nav-link" [routerLink]="['restaurant']">Restaurant</a>
+        <a class="btn btn-balk knop" [routerLink]="['restaurant']">Restaurant</a>
       </li>
       <li class="nav-item">
-        <a class="nav-link" [routerLink]="['bar']">Bar</a>
+        <a class="btn btn-balk knop" [routerLink]="['bar']">Bar</a>
       </li>
       <li class="nav-item">
-        <a class="nav-link" [routerLink]="['feestzaal']">Feestzaal</a>
+        <a class="btn btn-balk knop" [routerLink]="['feestzaal']">Feestzaal</a>
       </li>
-      <!-- <li class="nav-item">
-        <a class="nav-link" [routerLink]="['formules']">Formules</a>
+       <!-- <li class="nav-item">
+        <a class="btn btn-balk" [routerLink]="['formules']">Formules</a>
       </li> -->
       
     </ul>
-    <ul class="navbar-nav ml-auto">
-      <li class="nav-item">
-        <a class="nav-link" [routerLink]="['info']">Info</a>
+    <ul class="navbar-nav d-flex justify-content-around smallNav" style="margin: 0;">
+      <li >
+        <a class="btn btn-dark knop" [routerLink]="['info']">Info</a>
       </li>
       <li>
-        <a class="btn btn-knop my-2 my-sm-0" target="_blank" href="https://www.thefork.be/nl/restaurant/madonna-r582953">Reserveer!</a>
+        <a class="btn btn-knop knop my-2 my-sm-0" target="_blank" href="https://www.thefork.be/nl/restaurant/madonna-r582953">Reserveer!</a>
       </li>
       
     </ul>
   </div>
 </nav>
-<div style="margin-top: 57px; position: relative;">
+<div>
   <router-outlet></router-outlet>
 </div>
 <footer>

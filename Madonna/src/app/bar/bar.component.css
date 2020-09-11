@@ -1,20 +1,8 @@
 .wrapper
 {
-    display: flex;
-    min-height: 100vh;
+    
     background-image: url("/assets/barGrootBg.jpg");
-    background-repeat: no-repeat;
-    background-size: cover;
-}
-
-p
-{
-    color: #a0b991;
-}
-
-h1
-{
-    color: #a0b991;
+   
 }
 
 
