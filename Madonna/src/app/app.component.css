@@ -35,7 +35,7 @@ span
     max-width: unset;
 }
 
-img
+.mad
 {
     width:170px;
     z-index: 100;
@@ -64,6 +64,22 @@ img
 .smallNav
 {
     width: 15%;
+}
+
+.logos
+{
+    width: 15%;
+    height: 6%;
+    position: fixed;
+    bottom: 5%;
+    right: 0;
+    display: flex;
+    flex-direction: row;
+}
+
+.logoImg
+{
+    height: 100%;
 }
 
 
