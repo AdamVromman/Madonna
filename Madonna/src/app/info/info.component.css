@@ -11,5 +11,10 @@ img{
 
 .wrapper
 {
-    background-image: url("/assets/infoGrootBg.jpg");
+    background-image: url("/assets/keuze-018.jpg");
+}
+
+h3
+{
+    text-shadow: 1px 1px #173945;
 }
