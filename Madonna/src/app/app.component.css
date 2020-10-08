@@ -21,6 +21,7 @@ footer
     padding: 5.5px 12px 5.5px 12px;
     border-radius: 2px;
     margin-right: 30px;
+    text-shadow: none;
     
 }
 
@@ -113,6 +114,37 @@ span
     display: flex;
     flex-direction: row;
     justify-content: space-evenly;
+    z-index: 10;
+}
+
+.lichtgroen
+{
+    background-color: #a0b991;
+}
+
+.groen
+{
+    background-color: #708363;
+}
+
+.geel
+{
+    background-color: #f1dc5f;
+}
+
+.lichtgeel
+{
+    background-color: #f1cb60;
+}
+
+.roze
+{
+    background-color: #e08269;
+}
+
+.oranje
+{
+    background-color:  #ee603c;
 }
 
 .logoImg
@@ -125,7 +157,7 @@ span
     height: 36px;
     width: 36px;
     padding: 5px 5px 5px 5px;
-    background-color: #1c4655;
+    
     border-radius: 2px;
 
 }
