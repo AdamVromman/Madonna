@@ -29,7 +29,7 @@ $Madonna-theme: mat-light-theme($Madonna-primary, $Madonna-accent, $Madonna-warn
 @import 'custom.scss';
 @import '../node_modules/bootstrap/scss/bootstrap';
 
-.tekst
+.text
 {
     position: relative;
     bottom: 0;
@@ -45,8 +45,12 @@ $Madonna-theme: mat-light-theme($Madonna-primary, $Madonna-accent, $Madonna-warn
     z-index: 4;
     font-size: 35px;
     background-repeat: repeat;
-    
-
+    background-color: rgba(255, 192, 0, 0.7);
+    font-size: 25px;
+    width: 100%;
+    z-index: 5;
+    padding: 3rem 0;
+    text-align: center;
 }
 
 .shade

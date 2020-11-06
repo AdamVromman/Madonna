@@ -16,15 +16,6 @@
     position: fixed;
 }
 
-.text
-{
-    text-align: center;
-    background-color: #f1dc5f;
-    font-size: 25px;
-    width: 100%;
-    z-index: 5;
-    padding: 3rem 0;
-}
 
 .filler
 {

@@ -16,10 +16,10 @@ footer
 
 .knop
 {
-    color: white;
+    color: #ffc000;
     background-color: #1c4655;
-    padding: 5.5px 12px 5.5px 12px;
-    /*border-radius: 2px;*/
+    /*padding: 5.5px 12px 5.5px 12px;
+    border-radius: 2px;*/
     margin-right: 30px;
     text-shadow: none;
     
@@ -27,8 +27,8 @@ footer
 
 .knopReserveer
 {
-    color: black;
-    background-color:#ee603c;
+    color: #1c4655;
+    background-color:#ffc000;
     padding: 5.5px 12px 5.5px 12px;
     /*border-radius: 2px;*/ 
     margin-right: 30px;
@@ -38,29 +38,29 @@ footer
 
 .knop:hover
 {
-    background-color: #235568;
+    /* background-color: #235568; */
     text-decoration: none;
 }
 
 .btn-balk:hover
 {
-    background-color: #1c4655;
+    /* background-color: #1c4655; */
     border-radius: 0;
 }
 
 .info
 {
-    background-color: darkgray;
+    /* background-color: darkgray; */
 }
 
 .info:hover
 {
-    background-color: rgb(196, 196, 196);
+    /* background-color: rgb(196, 196, 196); */
 }
 
 .reserveer
 {
-    background-color: #f26136;
+    background-color:#ffc000;
 }
 
 .reserveer:hover
@@ -183,12 +183,16 @@ span
 
 }
 
-.navAchtergrond
+.logo{
+    padding: 0;
+}
+
+/* .navAchtergrond
 {
     background-image: url("/assets/hu.jpg") !important;
     background-size: 100%;
     background-position-y: -100%;
-}
+} */
 
 
 
