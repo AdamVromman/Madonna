@@ -29,11 +29,97 @@ $Madonna-theme: mat-light-theme($Madonna-primary, $Madonna-accent, $Madonna-warn
 @import 'custom.scss';
 @import '../node_modules/bootstrap/scss/bootstrap';
 
-.tekst
+//knoppen
+
+.knop
+{
+    color: white;
+    background-color: #1c4655;
+    padding: 5.5px 12px 5.5px 12px;
+    /*border-radius: 2px;*/
+    margin-right: 30px;
+    text-shadow: none;
+    
+}
+
+.knopReserveer
+{
+    color: black;
+    background-color:#ee603c;
+    padding: 5.5px 12px 5.5px 12px;
+    /*border-radius: 2px;*/ 
+    margin-right: 30px;
+    text-shadow: none;
+    
+}
+
+.knop:hover
+{
+    background-color: #235568;
+    text-decoration: none;
+}
+
+.info
+{
+    background-color: darkgray;
+}
+
+.info:hover
+{
+    background-color: rgb(196, 196, 196);
+}
+
+
+//navigatiebalk
+
+.nav
+{
+    margin-top: 1%;
+    height: 5vh;
+    width: 100%;
+    position: absolute;
+    z-index: 100;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+
+.bigNav
+{
+    width: 25%;
+}
+
+.smallNav
+{
+    width: 15%;
+}
+
+.navAchtergrond
+{
+    //background-image: url("/assets/hu.jpg") !important;
+    background-image: url("/assets/keuze-023.jpg") !important;
+    background-size: 100%;
+    background-position-y: -100%;
+}
+
+//content
+
+.photo
+{
+    width: 100%;
+    height: 96vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    //background-position-y: 4vh;
+    position: fixed;
+}
+
+.text
 {
     position: relative;
     bottom: 0;
-    width: 60%;
+    width: 100%;
     margin-left: auto;
     margin-right: auto;
     padding-left: 3%;
@@ -46,16 +132,46 @@ $Madonna-theme: mat-light-theme($Madonna-primary, $Madonna-accent, $Madonna-warn
     font-size: 35px;
     background-repeat: repeat;
     
-
 }
 
-.shade
+.wrapper
+{
+    background-attachment: fixed;
+    display: flex;
+    min-height: 100vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    flex-direction: column; 
+}
+
+.filler
 {
     width: 100%;
-    height: 100%;
-    background-color: rgba(0,0,0,0.3);
-    
+    height: 96vh;
 }
+
+.break
+{
+    margin-top: 2rem;
+}
+
+footer
+{
+        
+        padding-top: 0.2em;
+        padding-bottom: 0.2em;
+        margin-left: auto;
+        margin-right: auto;
+        display:flex;
+        background-color: #eee;
+        justify-content: space-evenly;
+        margin-top: auto;
+        width: 100%;
+        z-index: 1000;
+       
+}
+
+//algemeen
 
 li
 {
@@ -80,84 +196,8 @@ h1
     color: white;
 }
 
-.banner
-{
-    width: 100%;
-    height: 65vh;
-    overflow: hidden;
-    position: relative;
-
-}
-
-.bannerImg
-{
-    position: relative;
-    width: 100%;
-    top: -35%; 
-
-}
-
-
-.titleWrapper
-{
-    position: fixed;
-    top: 0;
-    left: 0;
-    height: 70%;
-    width: 100%;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-}
-
-.title
-{
-    font-size: 7vw;
-    top: 0;
-    left: 0;
-    margin: 0;
-    margin-left: auto;
-    margin-right: auto;
-    z-index: 5;
-    text-shadow: 2px 2px #1c4655;
-}
-
-.content
-{
-    //background-color: #1c4655;
-    width: 100%;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    
-}
-
-
-.filler
-{
-    width: 100%;
-    height: 10vh;
-}
-
-
-
-
-.break
-{
-    margin-top: 2rem;
-}
-
-.wrapper
-{
-    background-attachment: fixed;
-    display: flex;
-    min-height: 100vh;
-    background-repeat: no-repeat;
-    background-size: cover;
-    
-}
-
-
+html, body { height: 100%; }
+body { margin: 0; font-family: Roboto, sans-serif; font-weight: 300; }
 
 @media screen and (max-width: 768px)
 {
@@ -168,5 +208,3 @@ h1
 }
 
 
-html, body { height: 100%; }
-body { margin: 0; font-family: Roboto, sans-serif; font-weight: 300; }

@@ -14,8 +14,8 @@ export class InfoComponent implements OnInit {
     var knoppen: any = document.getElementsByClassName('knop');
     for (var knop of knoppen)
     {
-      knop.style.backgroundColor = '#708363';
-      knop.style.color = 'black';
+      //knop.style.backgroundColor = '#708363';
+      //knop.style.color = 'black';
     }
 
     document.getElementById("arrowSVG").style.display = 'none';

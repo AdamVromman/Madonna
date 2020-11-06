@@ -14,8 +14,8 @@ export class FeestzaalComponent implements OnInit {
     var knoppen: any = document.getElementsByClassName('knop');
     for (var knop of knoppen)
     {
-      knop.style.backgroundColor = ' #f1dc5f';
-      knop.style.color = 'black';
+      //knop.style.backgroundColor = ' #f1dc5f';
+      //knop.style.color = 'black';
     }
 
 document.getElementById("arrowSVG").style.display = 'block';

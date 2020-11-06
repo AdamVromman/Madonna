@@ -1,41 +1,13 @@
-.wrapper
-{
-    display: flex;
-    flex-direction: column;
-    min-height: 100vh;
-}
 
 .photo
 {
-    width: 100%;
-    height: 96vh;
     background-image: url("/assets/keuze-080.jpg");
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position-y: 60%;
-    position: fixed;
 }
 
 .text
 {
-    text-align: center;
     background-color: #9fb890;
-    font-size: 25px;
-    width: 100%;
-    z-index: 5;
-    padding: 3rem 0;
 }
-
-.filler
-{
-    width: 100%;
-    height: 96vh;
-}
-
-
-
-
-
 
 @media screen and (max-width: 768px)
 {
