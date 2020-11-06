@@ -18,6 +18,9 @@ export class BarComponent implements OnInit {
       knop.style.color = 'black';
     }
 
+    document.getElementById("arrowSVG").style.display = 'block';
+    document.getElementById("arrowSVG").style.fill = '#e08269';
+
   }
 
 }

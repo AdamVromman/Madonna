@@ -19,7 +19,10 @@ export class HomeComponent implements OnInit {
     {
       knop.style.backgroundColor = '#f1cb60';
       knop.style.color = 'black';
+
     }
+    document.getElementById("arrowSVG").style.display = 'block';
+    document.getElementById("arrowSVG").style.fill = '#f1cb60';
 
   }
 

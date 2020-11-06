@@ -17,6 +17,9 @@ export class RestaurantComponent implements OnInit {
       knop.style.backgroundColor = '#a0b991';
       knop.style.color = 'black';
     }
+
+    document.getElementById("arrowSVG").style.display = 'block';
+    document.getElementById("arrowSVG").style.fill = '#a0b991';
   }
 
 }
