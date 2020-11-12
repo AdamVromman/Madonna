@@ -33,7 +33,7 @@ $Madonna-theme: mat-light-theme($Madonna-primary, $Madonna-accent, $Madonna-warn
 
 .knop
 {
-    color: white;
+    color: #ffc000;
     background-color: #1c4655;
     padding: 5.5px 12px 5.5px 12px;
     /*border-radius: 2px;*/
@@ -44,8 +44,8 @@ $Madonna-theme: mat-light-theme($Madonna-primary, $Madonna-accent, $Madonna-warn
 
 .knopReserveer
 {
-    color: black;
-    background-color:#ee603c;
+    color:#1c4655;
+    background-color:#ffc000;
     padding: 5.5px 12px 5.5px 12px;
     /*border-radius: 2px;*/ 
     margin-right: 30px;
@@ -55,18 +55,8 @@ $Madonna-theme: mat-light-theme($Madonna-primary, $Madonna-accent, $Madonna-warn
 
 .knop:hover
 {
-    background-color: #235568;
     text-decoration: none;
-}
-
-.info
-{
-    background-color: darkgray;
-}
-
-.info:hover
-{
-    background-color: rgb(196, 196, 196);
+    color: #d6a100;
 }
 
 
@@ -97,10 +87,9 @@ $Madonna-theme: mat-light-theme($Madonna-primary, $Madonna-accent, $Madonna-warn
 
 .navAchtergrond
 {
-    //background-image: url("/assets/hu.jpg") !important;
-    background-image: url("/assets/keuze-023.jpg") !important;
+    background-image: url("/assets/hu.jpg") !important;
     background-size: 100%;
-    background-position-y: -100%;
+    background-position-y: 0%;
 }
 
 //content
@@ -108,11 +97,12 @@ $Madonna-theme: mat-light-theme($Madonna-primary, $Madonna-accent, $Madonna-warn
 .photo
 {
     width: 100%;
-    height: 96vh;
+    height: 100vh;
     background-repeat: no-repeat;
     background-size: cover;
-    //background-position-y: 4vh;
+    background-position-y: 0%;
     position: fixed;
+    top: 0;
 }
 
 .text
@@ -124,13 +114,15 @@ $Madonna-theme: mat-light-theme($Madonna-primary, $Madonna-accent, $Madonna-warn
     margin-right: auto;
     padding-left: 3%;
     padding-right: 3%;
-    padding-top: 2rem;
+    padding-top: calc(2vh - 0.5rem);
     padding-bottom: 2rem;
     text-align: center;
     color: #ffffff;
     z-index: 4;
     font-size: 35px;
     background-repeat: repeat;
+    background-color: #1c4655;
+    color: #ffc000;
     
 }
 
@@ -147,7 +139,7 @@ $Madonna-theme: mat-light-theme($Madonna-primary, $Madonna-accent, $Madonna-warn
 .filler
 {
     width: 100%;
-    height: 96vh;
+    height: 92vh;
 }
 
 .break
@@ -185,7 +177,7 @@ ul{
 p, li
 {
     margin: 0;
-    color: black;
+    color: #ffc000;
 
 }
 
@@ -197,7 +189,7 @@ h1
 }
 
 html, body { height: 100%; }
-body { margin: 0; font-family: Roboto, sans-serif; font-weight: 300; }
+body { margin: 0; font-family: 'Montserrat', sans-serif; font-weight: 100; }
 
 @media screen and (max-width: 768px)
 {

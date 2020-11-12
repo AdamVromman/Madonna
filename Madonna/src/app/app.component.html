@@ -6,7 +6,6 @@
   <button (click)="isMenuCollapsed = !isMenuCollapsed" class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
     <span class="navbar-toggler-icon"></span>
   </button>
-
   <div [ngbCollapse]="isMenuCollapsed" class="collapse navbar-collapse " id="navbarSupportedContent">
     <ul class="navbar-nav mr-auto d-flex bigNav">
       <li class="nav-item">
@@ -31,8 +30,7 @@
     </ul>
   </div>
 </nav>
-
-  <router-outlet></router-outlet>
+<router-outlet></router-outlet>
 </div>
 <div class="logos">
   <a class="logoBtn lichtgeel" target="_blank" href="https://www.facebook.com/MadonnaGent/">
