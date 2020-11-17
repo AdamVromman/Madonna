@@ -1,8 +1,12 @@
-.wrapper
+
+.photo
 {
-    
     background-image: url("/assets/keuze-124.jpg");
-   
+}
+
+.text
+{
+    background-color: rgba(224, 130, 105, 0.9);
 }
 
 

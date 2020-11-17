@@ -2,7 +2,19 @@ $theme-colors: (
   "balk": #1c4655,
   "knop": #f26136,
   "test": rgba(0,0,0,0),
+  "lichtgroen": #a0b991,
+  "groen": #708363,
+  "lichtgeel": #f1dc5f,
+  "geel": #f1cb60,
+  "oranje": #ee603c,
+  "roze": #e08269,
+
  
 );
+
+@function theme-color($key: "primary") {
+  @return map-get($theme-colors, $key);
+}
+
 @import "../node_modules/bootstrap/scss/bootstrap";
 

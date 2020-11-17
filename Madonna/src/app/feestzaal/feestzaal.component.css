@@ -1,36 +1,37 @@
-.wrapper
+
+.photo
 {
-    display: flex;
-    min-height: 100vh;
-    background-image: url("/assets/feestzaalGrootBg.jpg");
-    background-repeat: no-repeat;
-    background-size: cover;
+    background-image: url("/assets/hu.jpg");
+}
+
+.text
+{
+    /* background-color: #f1dc5f; */
 }
 
 h2{
-    text-shadow: 1px 1px #173945;
     font-weight: 300;
     font-size: 38px;
 }
 
 h3{
-    text-shadow: 1px 1px #173945;
-    
+   
     font-weight: 300;
     font-size: 35px;
 }
 
 h4{
-    text-shadow: 1px 1px #173945;
     font-weight: 300;
     font-size: 32px;
 }
 
 .line
 {
-    border-top: white solid 2px;
-    width: 100%;
-    box-shadow: 1px 1px #173945;
+    border-top:black solid 2px;
+    width: 70%;
+    margin-left: auto;
+    margin-right: auto;
+    
 }
 
 .kleiner

@@ -1,16 +1,13 @@
-.wrapper
+
+.photo
 {
-    display: flex;
-    min-height: 100vh;
     background-image: url("/assets/keuze-080.jpg");
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position-y: 90%;
 }
 
-
-
-
+.text
+{
+    background-color: #9fb890;
+}
 
 @media screen and (max-width: 768px)
 {
