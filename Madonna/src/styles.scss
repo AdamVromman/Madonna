@@ -33,11 +33,11 @@ $Madonna-theme: mat-light-theme($Madonna-primary, $Madonna-accent, $Madonna-warn
 
 .knop
 {
-    color: #ffc000;
-    background-color: #1c4655;
+    color: theme-color('balk');
+    //background-color: #1c4655;
     padding: 5.5px 12px 5.5px 12px;
     /*border-radius: 2px;*/
-    margin-right: 30px;
+    //margin-right: 30px;
     text-shadow: none;
     
 
@@ -45,23 +45,40 @@ $Madonna-theme: mat-light-theme($Madonna-primary, $Madonna-accent, $Madonna-warn
 
 .knopReserveer
 {
-    color:#1c4655;
-    background-color:#ffc000;
+    color: theme-color('balk');
+    //background-color:#ffc000;
+    font-weight: 700;
     padding: 5.5px 12px 5.5px 12px;
     /*border-radius: 2px;*/ 
-    margin-right: 30px;
+    //margin-right: 30px;
     text-shadow: none;
     
+}
+
+.knopReserveer:hover
+{
+    text-decoration: none;
+    color:#a87e00;
 }
 
 .knop:hover
 {
     text-decoration: none;
-    color: #d6a100;
+    color:#a87e00;
 }
 
 
 //navigatiebalk
+
+.cube
+{
+    width: 40px;
+    height: 40px;
+    background-image: url("/assets/hu.jpg");
+    background-size: 100%;
+    background-repeat: no-repeat;
+    
+}
 
 .nav
 {
@@ -78,19 +95,26 @@ $Madonna-theme: mat-light-theme($Madonna-primary, $Madonna-accent, $Madonna-warn
 
 .bigNav
 {
-    width: 25%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+   
 }
 
 .smallNav
 {
-    width: 15%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    
 }
 
-.navAchtergrond
+.navWrapper
 {
-    background-image: url("/assets/hu.jpg") !important;
-    background-size: 100%;
-    background-position-y: 0%;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
 }
 
 //content
@@ -118,12 +142,12 @@ $Madonna-theme: mat-light-theme($Madonna-primary, $Madonna-accent, $Madonna-warn
     padding-top: calc(2vh - 0.5rem);
     padding-bottom: 2rem;
     text-align: center;
-    color: #ffffff;
+    color: rgb(28, 70, 85);
     z-index: 4;
     font-size: 35px;
     background-repeat: repeat;
-    background-color: #1c4655;
-    color: #ffc000;
+    background-color: rgba(theme-color('witgeel'), 0.7)
+    
     
 }
 
@@ -140,7 +164,7 @@ $Madonna-theme: mat-light-theme($Madonna-primary, $Madonna-accent, $Madonna-warn
 .filler
 {
     width: 100%;
-    height: 92vh;
+    height: 96vh;
 }
 
 .break
@@ -178,7 +202,7 @@ ul{
 p, li
 {
     margin: 0;
-    color: #ffc000;
+    //color: #ffc000;
 
 }
 

@@ -4,11 +4,6 @@
     background-image: url("/assets/keuze-124.jpg");
 }
 
-.text
-{
-    background-color: rgba(224, 130, 105, 0.9);
-}
-
 
 @media screen and (max-width: 768px)
 {
