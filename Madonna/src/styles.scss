@@ -68,20 +68,23 @@ $Madonna-theme: mat-light-theme($Madonna-primary, $Madonna-accent, $Madonna-warn
 }
 
 
+
 //navigatiebalk
 
 .cube
 {
     width: 40px;
     height: 40px;
-    background-image: url("/assets/hu.jpg");
+    background-color: black;
     background-size: 100%;
     background-repeat: no-repeat;
-    
+
 }
 
 .nav
 {
+    color: black;
+    mix-blend-mode: screen;
     margin-top: 1%;
     height: 5vh;
     width: 100%;
@@ -97,7 +100,8 @@ $Madonna-theme: mat-light-theme($Madonna-primary, $Madonna-accent, $Madonna-warn
 {
     display: flex;
     flex-direction: row;
-    justify-content: space-evenly;
+    justify-content: space-between;
+    width: 30%;
    
 }
 
@@ -134,20 +138,30 @@ $Madonna-theme: mat-light-theme($Madonna-primary, $Madonna-accent, $Madonna-warn
 {
     position: relative;
     bottom: 0;
-    width: 100%;
+    width: 95%;
     margin-left: auto;
-    margin-right: auto;
-    padding-left: 3%;
+    //margin-right: auto;
+    text-align: left;
+    padding-left: 5%;
     padding-right: 3%;
-    padding-top: calc(2vh - 0.5rem);
+    padding-top: 5%;
     padding-bottom: 2rem;
-    text-align: center;
+    //text-align: center;
     color: rgb(28, 70, 85);
     z-index: 4;
     font-size: 35px;
     background-repeat: repeat;
-    background-color: rgba(theme-color('witgeel'), 0.7)
+    background-color: rgba(theme-color('geelwit'), 0.7)
     
+    
+}
+
+.line
+{
+    border-top:theme-color('balk') solid 2px;
+    width: 70%;
+    margin-left: auto;
+    margin-right: auto;
     
 }
 
@@ -193,17 +207,16 @@ footer
 li
 {
     list-style: none;
+    margin: 0;
 }
 
 ul{
     padding: 0;
 }
 
-p, li
+p
 {
-    margin: 0;
-    //color: #ffc000;
-
+    font-size: large;
 }
 
 
