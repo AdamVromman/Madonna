@@ -1,8 +1,20 @@
-.logos
+
+.infoTekst
 {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-evenly;
+    width: 50%;
+    padding: 5%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 15%;
+    color:  rgb(28, 70, 85);
+    background-color: rgba(255, 237, 232, 0.7);
+}
+
+
+.mailLink
+{
+    text-decoration: none;
+    color: rgb(28, 70, 85);
 }
 
 img{
@@ -12,9 +24,4 @@ img{
 .wrapper
 {
     background-image: url("/assets/keuze-018.jpg");
-}
-
-h3
-{
-    text-shadow: 1px 1px #173945;
 }

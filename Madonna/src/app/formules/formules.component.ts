@@ -10,6 +10,8 @@ export class FormulesComponent implements OnInit {
   constructor() { }
 
   ngOnInit(): void {
+
+    scroll(0,0)
   }
 
 }

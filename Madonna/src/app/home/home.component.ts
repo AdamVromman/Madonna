@@ -14,15 +14,8 @@ export class HomeComponent implements OnInit {
   ngOnInit(): void {
 
 
-    var knoppen: any = document.getElementsByClassName('knop');
-    for (var knop of knoppen)
-    {
-      //knop.style.backgroundColor = '#f1cb60';
-      //knop.style.color = 'black';
+    scroll(0,0)
 
-    }
-    document.getElementById("arrowSVG").style.display = 'block';
-    document.getElementById("arrowSVG").style.fill = '#f1cb60';
 
   }
 

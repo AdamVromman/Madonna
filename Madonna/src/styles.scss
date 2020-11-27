@@ -35,12 +35,11 @@ $Madonna-theme: mat-light-theme($Madonna-primary, $Madonna-accent, $Madonna-warn
 {
     color: theme-color('balk');
     //background-color: #1c4655;
-    padding: 5.5px 12px 5.5px 12px;
+    padding: 5.5px 40px 5.5px 40px;
     /*border-radius: 2px;*/
     //margin-right: 30px;
     text-shadow: none;
     
-
 }
 
 .knopReserveer
@@ -48,7 +47,7 @@ $Madonna-theme: mat-light-theme($Madonna-primary, $Madonna-accent, $Madonna-warn
     color: theme-color('balk');
     //background-color:#ffc000;
     font-weight: 700;
-    padding: 5.5px 12px 5.5px 12px;
+    padding: 5.5px 40px 5.5px 40px;
     /*border-radius: 2px;*/ 
     //margin-right: 30px;
     text-shadow: none;
@@ -101,16 +100,25 @@ $Madonna-theme: mat-light-theme($Madonna-primary, $Madonna-accent, $Madonna-warn
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-    width: 30%;
+    
+    :first-child > a
+    {
+        padding-left: 0;
+    }
    
 }
 
 .smallNav
 {
+    
     display: flex;
     flex-direction: row;
     justify-content: space-evenly;
     
+    :last-child > a
+    {
+        padding-right: 0;
+    }
 }
 
 .navWrapper
@@ -119,6 +127,14 @@ $Madonna-theme: mat-light-theme($Madonna-primary, $Madonna-accent, $Madonna-warn
     display: flex;
     flex-direction: row;
     justify-content: space-between;
+    margin-left: 2%;
+    
+}
+
+.navAchtergrond
+{
+    padding-left: 1%;
+    padding-right: 2%;
 }
 
 //content
@@ -231,10 +247,29 @@ body { margin: 0; font-family: 'Montserrat', sans-serif; font-weight: 100; }
 
 @media screen and (max-width: 768px)
 {
+
     .tekst
     {
         width: 90%;
     }
+
+    // .navWrapper{
+    //     flex-direction: column;
+    // }
+
+    .smallNav
+    {
+        flex-direction: column;
+    }
+
+    .bigNav{
+        flex-direction: column;
+        :first-child > a
+    {
+        padding-left: 12.5px;
+    }
+    }
+
 }
 
 

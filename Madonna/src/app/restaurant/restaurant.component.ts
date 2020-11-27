@@ -11,15 +11,8 @@ export class RestaurantComponent implements OnInit {
 
   ngOnInit(): void {
 
-    var knoppen: any = document.getElementsByClassName('knop');
-    for (var knop of knoppen)
-    {
-      //knop.style.backgroundColor = '#a0b991';
-      //knop.style.color = 'black';
-    }
+    scroll(0,0)
 
-    document.getElementById("arrowSVG").style.display = 'block';
-    document.getElementById("arrowSVG").style.fill = '#a0b991';
   }
 
 }

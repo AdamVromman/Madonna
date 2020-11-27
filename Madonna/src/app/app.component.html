@@ -2,17 +2,17 @@
 <div class="container">
 <nav class="navbar navbar-expand-lg navbar-light bg-geelwit fixed-top navAchtergrond">
   <a class="navbar-brand logo" [routerLink]="['home']">
-    <img id="m" class="mad" src="assets/mLogo.png">
-    <img id="adonna" class="adonna" src="assets/adonnaLogo.png">
+    <img id="madonna" class="mad" src="assets/madonnaLogoPNGsmall.png">
+    
   </a>
   <button (click)="isMenuCollapsed = !isMenuCollapsed" class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
     <span class="navbar-toggler-icon"></span>
   </button>
-  <div [ngbCollapse]="isMenuCollapsed" class="collapse navbar-collapse " id="navbarSupportedContent">
+  <div [ngbCollapse]="isMenuCollapsed" class="collapse navbar-collapse" id="navbarSupportedContent">
     <div class="navWrapper">
       <ul class="navbar-nav mr-auto d-flex bigNav">
         <li class="nav-item">
-          <a class="knop" [routerLink]="['restaurant']">Restaurant</a>
+          <a class="knop restaurant" [routerLink]="['restaurant']">Restaurant</a>
         </li>
         <li class="nav-item">
           <a class="knop" [routerLink]="['bar']">Bar</a>
@@ -46,9 +46,7 @@
 <a class="logoBtn roze" target="_blank" href="https://www.tripadvisor.be/Restaurant_Review-g188666-d19601148-Reviews-Madonna-Ghent_East_Flanders_Province.html">
     <img class="logoImg" src="assets/ta.png">
 </a>
-<a class="logoBtn oranje" target="_blank" href="mailto:laurabracke.madonna@gmail.com">
-    <img class="logoImg" src="assets/mail.png">
-</a>
+
 </div>
 <!-- <div>
 <footer>
