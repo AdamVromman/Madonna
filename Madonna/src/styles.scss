@@ -35,35 +35,32 @@ $Madonna-theme: mat-light-theme($Madonna-primary, $Madonna-accent, $Madonna-warn
 {
     color: theme-color('balk');
     //background-color: #1c4655;
-    padding: 5.5px 40px 5.5px 40px;
+    padding: 5.5px 15px 5.5px 15px;
     /*border-radius: 2px;*/
     //margin-right: 30px;
     text-shadow: none;
+    font-weight: 700;
     
 }
 
 .knopReserveer
 {
-    color: theme-color('balk');
-    //background-color:#ffc000;
     font-weight: 700;
-    padding: 5.5px 40px 5.5px 40px;
-    /*border-radius: 2px;*/ 
-    //margin-right: 30px;
-    text-shadow: none;
-    
+    color: theme-color('roze');
+}
+
+
+
+.knop:hover
+{
+    text-decoration: none;
+    color: theme-color('roze');
 }
 
 .knopReserveer:hover
 {
     text-decoration: none;
-    color:#a87e00;
-}
-
-.knop:hover
-{
-    text-decoration: none;
-    color:#a87e00;
+    color: theme-color('balk');
 }
 
 
@@ -85,13 +82,14 @@ $Madonna-theme: mat-light-theme($Madonna-primary, $Madonna-accent, $Madonna-warn
     color: black;
     mix-blend-mode: screen;
     margin-top: 1%;
-    height: 5vh;
+    height: 50px;
     width: 100%;
     position: absolute;
     z-index: 100;
     display: flex;
     flex-direction: row;
     justify-content: space-evenly;
+    
 }
 
 
@@ -127,14 +125,14 @@ $Madonna-theme: mat-light-theme($Madonna-primary, $Madonna-accent, $Madonna-warn
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-    margin-left: 2%;
+    margin: 0 40px 0 40px;
     
 }
 
 .navAchtergrond
 {
-    padding-left: 1%;
-    padding-right: 2%;
+    padding-left: 40px;
+    padding-right: 0px;
 }
 
 //content
@@ -154,7 +152,7 @@ $Madonna-theme: mat-light-theme($Madonna-primary, $Madonna-accent, $Madonna-warn
 {
     position: relative;
     bottom: 0;
-    width: 95%;
+    width: calc(100% - 40px);
     margin-left: auto;
     //margin-right: auto;
     text-align: left;
@@ -163,7 +161,8 @@ $Madonna-theme: mat-light-theme($Madonna-primary, $Madonna-accent, $Madonna-warn
     padding-top: 5%;
     padding-bottom: 2rem;
     //text-align: center;
-    color: rgb(28, 70, 85);
+    //color: rgb(28, 70, 85);
+    color:rgb(12, 32, 39);
     z-index: 4;
     font-size: 35px;
     background-repeat: repeat;
@@ -243,7 +242,15 @@ h1
 }
 
 html, body { height: 100%; }
-body { margin: 0; font-family: 'Montserrat', sans-serif; font-weight: 100; }
+body { margin: 0; 
+    
+
+    // font-family: 'Abel', sans-serif;
+font-family: 'Open Sans Condensed', sans-serif;
+
+
+
+font-weight: 500; }
 
 @media screen and (max-width: 768px)
 {

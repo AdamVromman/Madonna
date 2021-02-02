@@ -1,20 +1,22 @@
 
 .infoTekst
 {
-    width: 50%;
-    padding: 5%;
-    margin-left: auto;
-    margin-right: auto;
-    margin-top: 15%;
-    color:  rgb(28, 70, 85);
-    background-color: rgba(255, 237, 232, 0.7);
+    position: absolute;
+    /* margin-left: auto; */
+    /* margin-right: 40px; */
+    /* bottom: 200px; */
+    top: calc(50px + 6rem);
+    right: 40px;
+    color:  rgb(255, 237, 232);
+    /* background-color: rgba(255, 237, 232, 0.7); */
+    text-align: right;
 }
 
 
 .mailLink
 {
     text-decoration: none;
-    color: rgb(28, 70, 85);
+    color:  rgb(255, 237, 232);
 }
 
 img{

@@ -18,10 +18,9 @@ span
 
 .logos
 {
-    width: 5%;
-    height: 20%;
+    width: 40px;
     position: fixed;
-    bottom: 4%;
+    bottom: 2px;
     left: 0;
     display: flex;
     flex-direction: column;
@@ -32,17 +31,22 @@ span
 .logoImg
 {
     height: 26px;
+    padding: 0px 0px 0px 0px;
+    
     
 }
 
 .logoBtn
 {
-    height: 36px;
-    width: 36px;
-    padding: 5px 5px 5px 5px;
+    /* height: 36px; */
+    width: 40px;
+    padding: 10px 0px 10px 0px;
     border-radius: 2px;
     margin-right: auto;
     margin-left: auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
 }
 
 
